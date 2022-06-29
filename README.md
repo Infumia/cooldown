@@ -8,10 +8,14 @@
 ```xml
 <dependencies>
   <dependency>
+    <groupId>com.github.ben-manes.caffeine</groupId>
+    <artifactId>guava</artifactId>
+    <version>3.1.1</version>
+  </dependency>
+  <dependency>
     <groupId>tr.com.infumia</groupId>
     <artifactId>cooldown</artifactId>
     <version>VERSION</version>
-    <scope>provided</scope>
   </dependency>
 </dependencies>
 ```
@@ -22,6 +26,7 @@ plugins {
 }
 
 dependencies {
-  compileOnly "tr.com.infumia:cooldown:VERSION"
+  implementation "com.github.ben-manes.caffeine:guava:3.1.1"
+  implementation "tr.com.infumia:cooldown:VERSION"
 }
 ```
