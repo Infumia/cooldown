@@ -1,7 +1,7 @@
 [versions]
 lombok = "1.18.28"
 annotations = "24.0.1"
-caffeine = "3.1.6"
+caffeine = "3.1.7"
 
 [libraries]
 lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
