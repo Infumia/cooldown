@@ -1,5 +1,5 @@
 [versions]
-lombok = "1.18.28"
+lombok = "1.18.30"
 annotations = "24.0.1"
 caffeine = "3.1.8"
 
