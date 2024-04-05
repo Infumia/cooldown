@@ -5,7 +5,7 @@ plugins {
   `maven-publish`
   signing
   id("com.diffplug.spotless") version "6.25.0"
-  id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
+  id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
 }
 
 val signRequired = !rootProject.property("dev").toString().toBoolean()
